@@ -1,19 +1,21 @@
 /* some global styles possibly*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(152, 206, 250), rgb(253, 141, 206));
+    margin: 0;
+}
+
 section {
     display: flex;
     justify-content: center;
     flex-flow: column;
     align-items: center;
     padding: 50px 0;
-    border-bottom: 1px solid black;
 }
 
 .hero {
-    height:500px;
-}
-
-.light-gray-bg {
-    background-color: lightgray;
+    height: 300px;
 }
 
 .has-bg-image {
@@ -22,10 +24,22 @@ section {
     background-position: center;
 }
 
-.hero h1 {
-    text-align: center;
-    color:pink;
+header, footer {
     background-color:black;
+    display: flex;
+}
+
+h1 {
+    font-family:Arvo;
+    display:flex;
+    justify-content:center;
+}
+
+p {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family:Arvo;
+    padding:1em;
+    width: 600px;
 }
 
 .cta {
