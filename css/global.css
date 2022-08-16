@@ -1,0 +1,103 @@
+/* some global styles possibly*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(152, 206, 250), rgb(253, 141, 206));
+    margin: 0;
+}
+
+section {
+    padding: 25px 0;
+}
+
+.centeredContent {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.leftContent {
+    display:flex;
+    justify-content:left;
+    margin-left:80px;
+}
+
+.hero {
+    height: 400px;
+}
+
+.people {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.has-bg-image {
+    background-image: url(https://images.unsplash.com/photo-1564602832342-3f6c84a37e47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+/*text styles*/
+
+h1 {
+    font-family:Arvo;
+}
+
+h2 {
+    font-family:Arvo;
+}
+
+.p1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family:Arvo;
+    padding:1em;
+    width: 1000px;
+    line-height: 2em;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.peopleParagraph {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family:Arvo;
+    padding:1em;
+    line-height: 2em;
+    font-size: 20px;
+    width:500px;
+}
+
+.black-background {
+    background-color:black;
+    color:pink;
+    border-bottom: solid pink 3px;
+    border-top:solid rgb(152, 206, 250) 3px;
+}
+
+.cta {
+    background-color:aquamarine;
+    color: darkslateblue;
+    padding: 1em;
+    border-radius: 20px;
+    transition: all .3s;
+    margin:3px;
+}
+
+.cta:hover {
+    background-color:azure;
+}
+
+.secondary-cta {
+    background-color: pink;
+    color: darkslateblue;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+
+/*css for jamie's page only*/
