@@ -7,16 +7,31 @@ body {
 }
 
 section {
+    padding: 25px 0;
+}
+
+.centeredContent {
     display: flex;
     justify-content: center;
     flex-flow: column;
     align-items: center;
-    padding: 25px 0;
+}
+
+.leftContent {
+    display:flex;
+    justify-content:left;
+    margin-left:80px;
 }
 
 .hero {
     height: 400px;
 }
+
+.people {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 .has-bg-image {
     background-image: url(https://images.unsplash.com/photo-1564602832342-3f6c84a37e47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
@@ -29,19 +44,32 @@ header, footer {
     display: flex;
 }
 
+/*text styles*/
+
 h1 {
     font-family:Arvo;
-    display:flex;
-    justify-content:center;
 }
 
-p {
+h2 {
+    font-family:Arvo;
+}
+
+.p1 {
     background-color: rgba(255, 255, 255, 0.5);
     font-family:Arvo;
     padding:1em;
     width: 1000px;
     line-height: 2em;
     font-size: 20px;
+}
+
+.peopleParagraph {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family:Arvo;
+    padding:1em;
+    line-height: 2em;
+    font-size: 20px;
+    width:500px;
 }
 
 .black-background {
@@ -57,6 +85,7 @@ p {
     padding: 1em;
     border-radius: 20px;
     transition: all .3s;
+    margin:3px;
 }
 
 .cta:hover {
