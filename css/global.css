@@ -39,11 +39,6 @@ section {
     background-position: center;
 }
 
-header, footer {
-    background-color:black;
-    display: flex;
-}
-
 /*text styles*/
 
 h1 {
@@ -61,6 +56,11 @@ h2 {
     width: 1000px;
     line-height: 2em;
     font-size: 20px;
+}
+
+ul {
+    list-style: none;
+
 }
 
 .peopleParagraph {
