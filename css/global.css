@@ -10,6 +10,10 @@ section {
     padding: 25px 0;
 }
 
+header, footer {
+    font-family: Arvo;
+}
+
 .centeredContent {
     display: flex;
     justify-content: center;
